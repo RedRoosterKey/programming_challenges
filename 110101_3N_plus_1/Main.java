@@ -34,11 +34,11 @@ public class Main {
 
 		final Main mySolution = new Main();
 		while ((line = in.readLine()) != null) {
-			StringTokenizer st = new StringTokenizer(line);
-			long first = Long.parseLong(st.nextToken());
-			long second = Long.parseLong(st.nextToken());
-			long third = mySolution.findLengthOfLongestCycleInRange(first,
-					second);
+			final StringTokenizer st = new StringTokenizer(line);
+			final long first = Long.parseLong(st.nextToken());
+			final long second = Long.parseLong(st.nextToken());
+			final long third = mySolution.findLengthOfLongestCycleInRange(
+					first, second);
 			System.out.printf("%d %d %d\n", first, second, third);
 		}
 	}
@@ -109,7 +109,7 @@ public class Main {
 
 		long longestCycleLength = 0;
 		for (long current = low; current <= high; current++) {
-			long currentLength = countStepsToReduceToOne(current);
+			final long currentLength = countStepsToReduceToOne(current);
 			if (currentLength > longestCycleLength)
 				longestCycleLength = currentLength;
 		}
