@@ -1,10 +1,9 @@
 // import static org.junit.Assert.assertEquals;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 // Must comments tests for judge to compile
@@ -28,12 +27,11 @@ public class Main {
 	 */
 	public static void main(String args[]) throws NumberFormatException,
 			IOException {
-		final BufferedReader in = new BufferedReader(new InputStreamReader(
-				System.in));
+		final Scanner input = new Scanner(System.in);
 		String line;
 
 		final Main mySolution = new Main();
-		while ((line = in.readLine()) != null) {
+		while ((line = input.nextLine()) != null) {
 			final StringTokenizer st = new StringTokenizer(line);
 			final long first = Long.parseLong(st.nextToken());
 			final long second = Long.parseLong(st.nextToken());
@@ -41,6 +39,7 @@ public class Main {
 					first, second);
 			System.out.printf("%d %d %d\n", first, second, third);
 		}
+		input.close();
 	}
 
 	/**
@@ -166,3 +165,4 @@ public class Main {
 	 * findLengthOfLongestCycleInRange(1000, 900)); }
 	 */
 }
+
