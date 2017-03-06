@@ -1,13 +1,11 @@
-// import static org.junit.Assert.assertEquals;
+package problem_110101_3N_plus_1;
+// You must remove this the package definition for this to run
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.StringTokenizer;
-
-// Must comments tests for judge to compile
-// import org.junit.Test;
 
 /**
  * 
@@ -115,54 +113,4 @@ public class Main {
 
 		return longestCycleLength;
 	}
-	/*
-	 * @Test public void testMultiplyByThreeOrDivideByTwo() { assertEquals(-2,
-	 * multiplyByThreeOrDivideByTwo(-1)); assertEquals(0,
-	 * multiplyByThreeOrDivideByTwo(0)); assertEquals(4,
-	 * multiplyByThreeOrDivideByTwo(1)); assertEquals(1,
-	 * multiplyByThreeOrDivideByTwo(2)); assertEquals(10,
-	 * multiplyByThreeOrDivideByTwo(3)); assertEquals(2,
-	 * multiplyByThreeOrDivideByTwo(4)); assertEquals(16,
-	 * multiplyByThreeOrDivideByTwo(5)); assertEquals(3,
-	 * multiplyByThreeOrDivideByTwo(6)); assertEquals(22,
-	 * multiplyByThreeOrDivideByTwo(7)); assertEquals(4611686018427387903l,
-	 * multiplyByThreeOrDivideByTwo(Long.MAX_VALUE - 1));
-	 * assertEquals(-4611686018427387904l,
-	 * multiplyByThreeOrDivideByTwo(Long.MIN_VALUE)); }
-	 * 
-	 * @Test(expected = IllegalArgumentException.class) public void
-	 * testCountStepsToReduceToOneNegativeArugment() { assertEquals(16,
-	 * countStepsToReduceToOne(-1)); }
-	 * 
-	 * @Test(expected = IllegalArgumentException.class) public void
-	 * testCountStepsToReduceToOneZeroArugment() { assertEquals(16,
-	 * countStepsToReduceToOne(0)); }
-	 * 
-	 * @Test public void testCountStepsToReduceToOne() { assertEquals(1,
-	 * countStepsToReduceToOne(1)); assertEquals(2, countStepsToReduceToOne(2));
-	 * assertEquals(8, countStepsToReduceToOne(3)); assertEquals(3,
-	 * countStepsToReduceToOne(4)); assertEquals(6, countStepsToReduceToOne(5));
-	 * assertEquals(4, countStepsToReduceToOne(8)); assertEquals(5,
-	 * countStepsToReduceToOne(16)); assertEquals(6,
-	 * countStepsToReduceToOne(32)); assertEquals(7,
-	 * countStepsToReduceToOne(64)); assertEquals(8,
-	 * countStepsToReduceToOne(128)); assertEquals(9,
-	 * countStepsToReduceToOne(256)); assertEquals(10,
-	 * countStepsToReduceToOne(512)); assertEquals(11,
-	 * countStepsToReduceToOne(1024)); assertEquals(12,
-	 * countStepsToReduceToOne(2048)); assertEquals(32,
-	 * countStepsToReduceToOne(2147483648l)); // (2^31) assertEquals(513,
-	 * countStepsToReduceToOne(Long.MAX_VALUE)); // (2^63) }
-	 * 
-	 * @Test public void testfindLengthOfLongestCycle() { assertEquals(20,
-	 * findLengthOfLongestCycleInRange(1, 10)); assertEquals(20,
-	 * findLengthOfLongestCycleInRange(10, 1)); assertEquals(125,
-	 * findLengthOfLongestCycleInRange(100, 200)); assertEquals(125,
-	 * findLengthOfLongestCycleInRange(200, 100)); assertEquals(89,
-	 * findLengthOfLongestCycleInRange(201, 210)); assertEquals(89,
-	 * findLengthOfLongestCycleInRange(210, 201)); assertEquals(174,
-	 * findLengthOfLongestCycleInRange(900, 1000)); assertEquals(174,
-	 * findLengthOfLongestCycleInRange(1000, 900)); }
-	 */
 }
-

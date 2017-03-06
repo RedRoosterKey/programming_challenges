@@ -4,7 +4,7 @@ My solutions to various problems posted on the [Programming Challenges](http://w
 
 It is worth noting that the judge is rather limited and therefore, my Java solutions have the following limitations:
 * Written in Java 1.6
-* All files are simply titled Main.java
-* All code is included in a single file
-* Unit Tests are commented out to prevent the judges compiler from breaking
+* All solutions are simply titled Main.java
+* All tests are simply title MainTest.java
+* The package declaration must be removed for the program to be run by the judge
 ```
